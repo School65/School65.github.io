@@ -27,6 +27,7 @@ header {
 	font-weight: bold;
 	padding-top: 40px;
 	margin-bottom: 30px;
+	border: 3px black;
 	
 }
 .title a:hover{
