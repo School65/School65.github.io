@@ -428,9 +428,6 @@ header {
 	text-align: center;
 	font-weight: bold;
 	margin-top: 0;
-	opacity:0.89;
-	
-	
 }
 .logo{
 	wider: 80px;
@@ -588,5 +585,7 @@ table {
 .button1{
 	width: 140px;
 }
- 
+ header{
+	 opacity:0.7;
+ }
 }
