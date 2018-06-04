@@ -1,0 +1,585 @@
+
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+div{
+	box-sizing: border-box;
+}
+header {
+	background: url("../im/p.jpg") no-repeat center top / cover;
+	height:100vh;
+	}
+
+.clearfix:after{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.title{
+	color: #fff;
+	font-size:34px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 90px;
+	margin-bottom: 30px;
+	
+}
+.title a:hover{
+	border: 6px solid #A9A9A9;
+}
+.button{
+	background: Silver;
+	border-radius: 3px;
+	color: black;
+	text-align:center;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 70px;
+	opacity:0.89;
+}
+
+.container{
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.logo{
+	wider: 200px;
+	height: 100px;
+	
+	margin-left: 50px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 30px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 20px;
+	
+	}
+
+.menu a, #menu-icon {
+	font-weight:bold;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	}
+.menu a:hover,#menu-icon:hover{
+	border-bottom: 3px solid #fff;
+}
+#menu-icon{
+	display: none;
+	}
+.titles_2{
+	padding-top: 15px;
+}
+a:hover{
+	border-bottom: 3px solid #6A5ACD;
+}
+a{
+text-decoration: none;
+color:#6A5ACD;
+}
+.titles_2 h2{
+	font-size: 40px;
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 40px;
+	
+}
+.titles_2 p{
+	color: #777777;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 5px;
+}
+.ser{
+	margin-top:50px;
+}
+.ser1{
+	width: 250px;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.ser1 h3{
+	font-size: 24px;
+}
+.ser1 p{
+	font-size: 20px;
+	line-height: 1.55em;
+	padding-bottom:50px;
+}
+.ser1:last-child{
+	float: right;
+}
+.ser1:nth-child(2){
+	margin-left: 100px;
+}
+.ti{
+	
+	width: 150px;
+	height: 150px; 
+	
+}
+
+
+.so{
+	text-align: center;
+	
+}
+.so h3{
+	font-size: 40px;
+	text-transform: uppercase;
+	
+}
+.so p{
+	font-size:22px;
+	line-height: 1.55em;
+}
+.so h2{
+	font-size: 38px;
+	color: red;
+	padding-top: 15px;
+	text-transform: uppercase;
+}
+.no{
+	font-size: 24px;
+}
+
+#inf{
+	background: #f7f7f7;
+	padding-top: 50px;
+	padding-bottom:20px;
+}
+.new h3{
+	font-size: 40px;
+	text-align: center;
+	margin-top:20px;
+	
+}
+.poli{
+	width:150px;
+	height: 150px;
+	border-radius:150px;
+	text-align: center;
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	
+}
+.lilo p{
+	text-align:right;
+	font-family:Pristina;
+	font-size: 1.625em;
+}
+.poli2{
+	width:150px;
+	height: 150px;
+	border-radius:150px;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+.lilo2 p{
+	text-align:left;
+	font-family:Pristina;
+	font-size: 1.625em;
+}
+
+.col{
+	text-align:center;
+	margin-bottom: 70px;
+	
+	
+}
+
+.pod{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	color:gray;
+}
+ #upbutton {
+    background: url("../im/up.png") no-repeat top left;
+    height: 61px;
+    width: 63px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+
+table {
+	border-collapse: separate; 
+	border-spacing: 30px ;
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-right:20px;
+	}
+	#W{
+	background: #E6E6FA;
+	padding-top:50px;
+}
+.tr{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-bottom: 2%;
+	left:30px;
+	position: absolute;
+	animation: Ani 2s ease-out infinite alternate;
+}
+@keyframes Ani{
+	25%
+	{
+		bottom: 4%;
+	}
+	40%{
+		bottom: 6%;
+	}
+	75%{
+		bottom: 8%;
+		}
+	100%{
+		bottom: 10%
+	}
+}
+
+.sliderA {
+        width: 980px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+		margin-bottom: 70px;
+		margin-top: 70px;
+    }
+.opi h2{
+	font-size: 2.5em;
+	text-align: center;
+}
+.sliderA img{
+		width:900px;
+		height: 380px;
+	}
+.sliderA  input {
+        display: none;
+    }
+.sliderA p{
+	font-size: 20px;
+}
+.sliderA  input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA  input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderA  input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	.sliderA  div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderA div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA  input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+
+	}
+.button1{
+	
+	border-radius: 3px;
+	color: #484543;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0px auto;
+	text-decoration: none;	
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.125em;
+	border:3px solid #C0C0C0;
+	
+	}
+  @media(max-width:920px){
+	.menu{
+	display: none;
+	margin:0;
+	padding:0;
+	 }
+#menu-icon{
+	display:block;
+	float: right;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+nav{
+	background: #2b2eed;
+	padding-bottom: 10px;
+	
+	padding-top: 20px;
+}
+.menu li {
+	float: none;
+}
+.menu a{
+	display:block;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 30px;
+	border-top: 3px solid #2b2eed;
+}
+header {
+	background: url("../im/p.jpg") no-repeat center top / cover;
+	height:100%;
+	}
+	.button{
+	background: Silver;
+	border-radius: 3px;
+	color: black;
+	text-align:center;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	opacity:0.89;
+	margin-top: 80px;
+}
+  }
+  
+  @media (max-width:480px){
+	  .button{
+	background: Silver;
+	margin-top:80px;
+	border-radius: 3px;
+	color: black;
+	text-align:center;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	opacity:0.89;
+}
+.title{
+	color: #fff;
+	font-size:18px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.logo{
+	wider: 80px;
+	height: 80px;
+	margin-left: 30px;
+	float: left;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+
+.titles_2 h2{
+	font-size: 18px;
+	padding-top: 20px;
+	
+}
+.titles_2 p{
+	font-size: 16px;
+}
+	.ser{
+	
+	margin: 10px;
+}
+.ser1{
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.ser1 h3{
+	font-size: 16px;
+	word-wrap: break-word;
+}
+.ser1 p{
+	font-size: 12px;
+	padding-bottom:25px;
+	word-wrap: break-word;
+}
+.ser1:last-child{
+	float: right;
+}
+.ser1:nth-child(2){
+	margin-left: 30px;
+}
+.ti{
+	
+	width: 80px;
+	height: 80px; 
+	
+}
+
+.so h3{
+	font-size: 18px;
+	
+	
+}
+.so p{
+	font-size:14px;
+	
+
+}
+.so h2{
+	font-size: 16px;
+	color: red;
+
+}
+.no{
+	font-size: 14px;
+	margin-left: 17px;
+}
+#inf{
+	background: #f7f7f7;
+	padding-top: 50px;
+	padding-bottom:20px;
+}
+.new h3{
+	font-size: 18px;
+	
+	
+}
+.poli{
+	width:50px;
+	height: 50px;
+	border-radius:50px;
+
+	
+}
+.lilo p{
+	text-align:right;
+	font-family:Pristina;
+	font-size: 1.625em;
+}
+.poli2{
+	width:50px;
+	height: 50px;
+	border-radius:50px;
+	
+	
+}
+.lilo2 p{
+	text-align:left;
+	font-family:Pristina;
+	font-size: 1.625em;
+}
+
+.col{
+	text-align:center;
+	margin-bottom: 30px;
+}
+table {
+	border-collapse: separate; 
+	border-spacing: 30px ;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right:20px;
+	}
+.tr{
+	display:none;
+}
+
+ #upbutton {
+    background: url("../im/up.png") no-repeat top left;
+    height: 63px;
+    width: 61px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+
+.sliderA {
+        width: 350px;
+        height: 210px;
+        position: relative;
+        text-align: center;
+		margin-bottom: 90px;
+		margin-top: 70px;
+		
+		
+    }
+
+.sliderA img{
+		width:90%;
+		height: 200px;
+	}
+.sliderA p{
+	font-size: 14px;
+}
+.button1{
+	width: 140px;
+}
+ 
+}

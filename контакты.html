@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="wid=device-width, initial-scale=1.0">
+	<title>СОШ</title>
+	<link rel="stylesheet" href="css/k.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="heading clearfix">
+				<img src="im/logo.png" alt="СОШ" class="logo">
+				<a href="#" id="menu-icon">Меню</a>
+				<nav>
+					<ul class="menu">
+						<li>
+							<a href="index.html">главная</a>
+						</li>
+						<li>
+							<a href="1.html">информация</a>
+						</li>
+						<li>
+							<a href="реж.html">режим работы</a>
+						</li>
+						<li>
+							<a href="расписание.html">расписание</a>
+						</li>
+						<li>
+							<a href="контакты.html">контакты</a>
+						</li>
+						
+					</ul>
+				</nav>
+			</div>
+			
+		</div>
+	</header>
+	
+	
+	<section  id="inf">
+		<div class="container">
+		<div class="q">
+		426027, Удмуртская Республика, <br>
+		г. Ижевск, Щедрина, 1<br>
+		Телефон: +7 (3412) 50-60-11<br>
+		Факс: + 7 (3412) 50-60-11<br>
+		E-mail: fpn65@mail.ru<br>
+			</div>
+		<h2>Контактные данные:</h2>
+			<table>
+				<tr>
+					<th>Должность</th>
+					<th>ФИО</th>
+					<th>Контактные данные</th>
+				</tr>
+				<tr>
+					<td>Директор</td>
+					<td>Фефилов Павел Николаевич</td>
+					<td>8(3412)50-60-11 (приемная)</td>
+				</tr> 
+				<tr>
+					<td>Заместитель директора   по учебно-​воспитательной работе</td>
+					<td>Воронцова        Татьяна Анатольевна (1-4 классы)<br>
+						Иванова   Вера Ивановна​ (5-11 классы)</td>
+					<td>8(3412)50-70-11</td>
+					
+				</tr>
+				<tr>
+					<td>Заместитель директора по научно-методической работе</td>
+					<td>Бывальцева       Ольга Юрьевна</td>
+					<td>8(3412)50-70-11</td>
+					
+				<tr>
+					<td>Заместитель директора по воспитательной работе</td>
+					<td>Фефилова Юлия Игоревна</td>
+					<td>8(3412)50-70-11</td>
+					
+				<tr>
+					<td>Заместитель директора по социальной работе</td>
+					<td>​Зотева Алена Александровна</td>
+					<td>8(3412)50-70-11</td>
+					
+				</tr>
+				<tr>
+					<td>Заместитель директора по административно-хозяйственной работе</td>
+					<td>Дубинкина Светлана Валерьевна</td>
+					<td>8(3412)50-51-47</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	
+	<footer>
+	<div class="container">
+		<div class="pod">
+		@Будина Елизавета Владимировна.2018г.
+		</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var touch = $('#menu-icon');
+		    var menu = $('.menu');
+		 
+		    $(touch).on('click', function(e) {
+		        e.preventDefault();
+		        menu.slideToggle();
+		    });
+		    $(window).resize(function(){
+		        var wid = $(window).width();
+		        if(wid > 480 && menu.is(':hidden')) {
+		            menu.removeAttr('style');
+		        }
+		    });
+		});
+	</script>
+	<div id="upbutton"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+</script>
+		<script>
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 100) {
+					if ($('#upbutton').is(':hidden')) {
+						$('#upbutton').css({opacity : 1}).fadeIn('slow');
+					}
+				} else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+			});
+			$('#upbutton').click(function() {
+				$('html, body').stop().animate({scrollTop : 0}, 300);
+			});
+		</script>
+	
+	
+</body>
+</html>

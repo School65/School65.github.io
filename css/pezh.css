@@ -1,0 +1,155 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+#menu-icon{
+	display:none;
+}
+.clearfix:after{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header {
+	background: url(../im/p.jpg) no-repeat center top / cover;
+
+	}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.logo{
+	wider: 200px;
+	height: 100px;
+	margin-top: 41px;
+	margin-left: 50px;
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 20px;
+	
+	}
+.menu a, #menu-icon {
+	font-weight:bold;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+	}
+.menu a:hover,#menu-icon:hover{
+	border-bottom: 3px solid #fff;
+}
+h2{
+	font-size:26px;
+	margin-left:30px;
+}
+p{
+	font-size:20px;
+}
+h5{
+	font-size: 26px;
+}
+.pod{
+	margin-bottom: 50px;
+	margin-top: 70px;
+	text-align: center;
+	color:gray;
+}
+#upbutton {
+    background: url("../im/up.png") no-repeat top left;
+    height: 61px;
+    width: 63px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+@media(max-width:780px){
+	  .menu{
+	display: none;
+	margin:0;
+	padding:0;
+	 }
+#menu-icon{
+	display:block;
+	float: right;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+nav{
+	background: #2b2eed;
+	padding-bottom: 10px;
+	
+	padding-top: 20px;
+}
+.menu li {
+	float: none;
+}
+.menu a{
+	display:block;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 30px;
+	border-top: 3px solid #2b2eed;
+}
+header {
+	background: url("../im/p.jpg") no-repeat center top / cover;
+	}
+	.button{
+	background: #356df0;
+	border-radius: 3px;
+	color: #484543;
+	display: block;
+	width: 100px;
+	padding: 20px 0;
+	margin: 0px auto;
+	text-decoration: none;	
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right:5%;
+}
+h2{
+	font-size:22px;
+	margin-left:30px;
+}
+p{
+	font-size:18px;
+}
+h5{
+	font-size: 22px;
+}
+.logo{
+	wider: 100px;
+	height: 80px;
+	margin-top: 21px;
+	margin-left: 30px;
+	float: left;
+}
+  }
