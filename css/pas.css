@@ -120,6 +120,15 @@ h4{font-size:20px;
     z-index: 999;
   }
   @media(max-width:780px){
+	   .pas{
+		  width:100%
+	  }
+	 .pas1 h5{
+		 font-size:16px;
+	 }
+	 .pas1 p{
+		font-size:14px; 
+	 }
 	  .container{
 	width: 100%;
 	margin: 0 auto;
