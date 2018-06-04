@@ -20,7 +20,7 @@ header {
 	clear: both;
 }
 .title{
-	color: #fff;
+	color: Silver;
 	font-size:34px;
 	text-transform: uppercase;
 	text-align: center;
@@ -355,6 +355,9 @@ table {
 	
 	}
   @media(max-width:920px){
+	  .lilo p{
+		 font-size:14px; 
+	  }
 	.menu{
 	display: none;
 	margin:0;
