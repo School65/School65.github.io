@@ -20,8 +20,7 @@ header {
 .container{
 	width: 980px;
 	margin: 0 auto;
-	margin-left:3%;
-	margin-right:3%;
+	
 }
 .logo{
 	wider: 200px;
@@ -41,6 +40,10 @@ header {
 .pas1 p{
 	font-size: 20px;
 	
+}
+.pas1{
+	margin-left:5%;
+	margin-right:5%;
 }
 .pas1:nth-child(2){
 	float: right;
