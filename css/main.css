@@ -422,15 +422,19 @@ header {
 	opacity:0.89;
 }
 .title{
+	
+	
+	margin-top: 0px;
+	background: gray;
+	opacity:0.65;
+	
+}
+.title p{
 	color: #fff;
 	font-size:18px;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
-	margin-top: 0px;
-	background: gray;
-	opacity:0.65;
-	
 }
 .logo{
 	wider: 80px;
