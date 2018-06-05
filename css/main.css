@@ -422,20 +422,18 @@ header {
 	opacity:0.89;
 }
 .title{
-	
-	
-	margin: 0px;
-	padding:0px;
-}
-.title p{
 	color: #fff;
 	font-size:18px;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
 	opacity:1;
+	margin-top: 25px;
 	text-shadow: 1px 1px 2px black, 0 0 1em blue;
+	margin: 0px;
+	padding:0px;
 }
+
 .logo{
 	wider: 80px;
 	height: 80px;
