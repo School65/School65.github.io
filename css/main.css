@@ -423,6 +423,8 @@ header {
 }
 .title{
 	margin: 0px;
+	margin-bottom:15px;
+	margin-top:25px;
 	padding:0px;
 }
 .title p{
