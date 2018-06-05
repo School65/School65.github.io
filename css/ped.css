@@ -105,11 +105,12 @@ a{
     z-index: 999;
   }
     @media(max-width:780px){
-table {
+.tab {
 	margin:0px;
 	width:100%;
 	word-wrap: break-word;
 	}
+	
 	 .container{
 	width: 100%;
 	margin: 0 auto;
@@ -162,7 +163,7 @@ header {
 }
   }
   @media (max-width: 420px){
-	  table {
+	table {
 	margin:0px;
 	width:100%;
 	word-wrap: break-word;
