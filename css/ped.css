@@ -105,10 +105,8 @@ a{
     z-index: 999;
   }
     @media(max-width:780px){
-.tab {
-	margin:0px;
+ .tab{
 	width:100%;
-	word-wrap: break-word;
 	}
 	
 	 .container{
