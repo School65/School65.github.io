@@ -39,6 +39,7 @@ header {
 }
 .pas1 p{
 	font-size: 20px;
+	text-align:center;
 	
 }
 .pas1:nth-child(2){
