@@ -32,6 +32,9 @@ header {
 #menu-icon{
 	display:none;
 }
+.pas{
+	margin: 0px 0px;
+}
 
 .pas1 h5{
 	font-size: 22px;
@@ -43,10 +46,13 @@ header {
 	
 }
 .pas1:nth-child(2){
-	margin-left: 40px;
+	float: right;
+	margin-right: 420px;
 }
 .pas1:nth-child(1){
 	float:left;
+	
+	
 }
 
 nav{
@@ -83,15 +89,16 @@ nav{
 .olo{
 	font-size: 22px;
 	text-align:center;
+	margin-top: 20px;
 }
 h3{
-	font-size:20px;
+	font-size:22px;
 	margin-top: 30px;
 	margin-left:60px;
 }
 p{
-	font-size:16px;
-	margin-left: 25px;
+	font-size:20px;
+	margin-left: 60px;
 }
 
 .pod{
