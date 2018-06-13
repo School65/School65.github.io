@@ -356,10 +356,10 @@ table {
 	
 	}
   @media(max-width:920px){
-	  .lilo p{
+.lilo p{
 		 font-size:14px; 
 	  }
-	.menu{
+.menu{
 	display: none;
 	margin:0;
 	padding:0;
@@ -448,10 +448,7 @@ header {
 .container{
 	width: 100%;
 	margin: 0 auto;
-
 }
-
-
 .titles_2 h2{
 	font-size: 18px;
 	padding-top: 20px;
